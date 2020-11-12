@@ -17,7 +17,6 @@ class Hash{
         void remove(int key);
         int lookup(int key);
         void rebuild();
-        //void resize(int size);
 
         int hashF(int value);
         double loadFactor();

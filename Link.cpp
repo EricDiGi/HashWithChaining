@@ -37,19 +37,15 @@ void Link::remove(int loc){
     }
     if((loc != 0)&&(temp->next != NULL)&&(temp->next->next != NULL)){
         temp->next = temp->next->next;
-        //cout << "A";
         return;
     }
     else{
         temp->next = NULL;
         if(loc == 0){
             this->head = NULL;
-            //cout << "C";
         }
-        //cout << "B";
         return;
     }
-    
 }
 
 int Link::search(int point){

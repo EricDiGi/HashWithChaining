@@ -11,6 +11,7 @@ int main(){
     table.insert(55);
     table.insert(0);
     table.insert(4);
+    cout << table << endl;
     table.insert(12);
     table.insert(16);
     table.remove(55);

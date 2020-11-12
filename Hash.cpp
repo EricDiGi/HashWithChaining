@@ -19,6 +19,8 @@ void Hash::insert(int key){
     int iter = hashF(key);
     this->table[iter].append(key);
     this->size++;
+
+    //Automatically update table size
     if(reload()){
         rebuild();
     }
